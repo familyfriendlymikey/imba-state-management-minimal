@@ -1,5 +1,5 @@
 import state from './state'
-import api from './api'
+import * as api from './api'
 
 extend tag element
 	get state
@@ -8,7 +8,7 @@ extend tag element
 	get api
 		api # returning the 'api' variable we imported.
 
-import './app-counter'
+import './components/app-counter'
 
 tag app
 	<self>
